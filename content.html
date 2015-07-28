@@ -36,7 +36,9 @@ mixpanel.init("65d43bf84b6fead79463deb5d9e585d9");</script><!-- end Mixpanel -->
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
         
-        <p>Go to <a href="index.html">homepage</a></p>
+        <p>Go to <a href="index.html" onclick="">homepage</a></p>
+        
+        <p>Go to <a href="#" onclick="mixpanel.track("event from mixpanel");ga('send', 'event', 'category', 'action', 'label', 88); return false;">Click some event</a></p>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
