@@ -59,7 +59,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
         <p>Go to <a href="content.html">content page</a></p>
         
-        <div onclick="dataLayer.push({'event': 'button1-click'});" >Button 1</div>
+        <div onclick="dataLayer.push({
+     'color': 'red',
+     'conversionValue': 50,
+     'event': 'customizeCar'});">Button 1</div>
 
         <p>Go to <a href="funnel1.html">funnel landing page (e.g. cart page)</a></p>
 
