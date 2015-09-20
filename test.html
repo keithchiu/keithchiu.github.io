@@ -29,6 +29,12 @@
   </head>
 
   <body>
+<script>
+  dataLayer = [{
+    'pageCategory': 'signup',
+    'visitorType': 'high-value'
+  }];
+</script>
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KLFZK7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -94,6 +100,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
 
       <hr>
+
+<a href="#" name="button1" onclick="dataLayer.push({'event': 'button1-click'});" >Button 1</a>
+<script>dataLayer.push({'color': 'red'});</script>
 
       <footer>
         <p>© Company 2014</p>
